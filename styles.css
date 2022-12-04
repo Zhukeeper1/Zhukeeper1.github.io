@@ -1,0 +1,60 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 1440px;
+    margin: auto;
+}
+.section {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/** nar bar */
+#navbar{
+    margin-top: 25px;
+}
+
+#navbar ul{
+    display: flex;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    padding: 10px;
+}
+
+#navbar ul li a:hover{
+    border-bottom: solid 2px red;
+}
+
+/** video background */
+#myVideo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    object-fit: cover;
+}
+/** video control */
+.Vcontrols{
+    margin-top: 1rem;
+}
+
+

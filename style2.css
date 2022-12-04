@@ -1,0 +1,63 @@
+
+p{
+    font-family: "roboto", sans-serif;
+    text-align:center;
+    font-weight:bold;
+}
+h1{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align:center;
+}
+h3{
+    font-size: 26px;
+    font-weight: 400;
+    text-align:center;
+    font-weight:bold;
+}
+.container{
+    max-width: 1100px;
+}
+
+/** split line */
+.split{
+    margin: auto;
+    background-color: #000;
+    height: 2.5px;
+    width: 135px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+/** about page banner image */
+.banner{
+    height: 150px;
+    width: 468px;
+}
+
+/** main cast page image size */
+.isize{
+    height: 250px;
+    width: 250px;
+    float: left;
+    padding: 0 10px 0 0;
+    margin-bottom: 20px;
+
+}
+/** clean float image */
+.clean{
+    clear:both;
+}
+/** wrap the text around image */
+.wrap{
+    text-align: justify;
+}
+
+/** bootstrap footer */
+.bg{
+    background-color: black;
+    color: #ffffff;
+}
